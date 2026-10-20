@@ -1,0 +1,85 @@
+Annual course training inputs; weights and results in percent.
+Sleeve order: Treasury bills / Treasury 10-year note / Investment-grade bond fund / Global equity index fund
+
+Benchmark: 0.0 / 0.0 / 40.0 / 60.0
+  Return: 6.80% | Volatility: 10.46%
+  Reserve-eligible: 0.0%
+  Meets 6.5% objective? yes
+
+Equal weight: 25.0 / 25.0 / 25.0 / 25.0
+  Return: 5.20% | Volatility: 5.21%
+  Reserve-eligible: 50.0%
+  Meets 6.5% objective? no
+
+Inverse volatility: 84.3 / 6.0 / 7.0 / 2.6
+  Return: 3.77% | Volatility: 1.05%
+  Reserve-eligible: 90.3%
+  Meets 6.5% objective? no
+
+MANDATE CHECKS (including benchmark E)
+Reserve minimum: 3.0%
+
+Candidate A
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 14.0 pass
+  Redeemable in 5 days >= 90%: 100.0 pass
+  Largest single company <= 8%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  passes every checkable rule
+
+Candidate B
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 1.0 FAIL
+  Redeemable in 5 days >= 90%: 85.0 FAIL
+  Largest single company <= 8%: 9.0 FAIL
+  Calendar-year loss: requires CIO clarification
+  fails 3 rule(s)
+
+Candidate C
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 2.0 FAIL
+  Redeemable in 5 days >= 90%: 100.0 pass
+  Largest single company <= 8%: 8.0 pass
+  Calendar-year loss: requires CIO clarification
+  fails 1 rule(s)
+
+Candidate D
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 100.0 pass
+  Redeemable in 5 days >= 90%: 100.0 pass
+  Largest single company <= 8%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  passes every checkable rule
+
+Candidate E
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 0.0 FAIL
+  Redeemable in 5 days >= 90%: 100.0 pass
+  Largest single company <= 8%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  fails 1 rule(s)
+
+Correlation 0.50 probe: 11.00%
+Correlation 1.3 rejected: Every correlation must be finite and between -1 and 1.
+Delivered IG/equity correlation: 0.25
+CSV validated: 60 rows, four funds, 2021-10-29 to 2026-09-30, no missing prices.
+All 240 price cells reconcile exactly to saved Yahoo adjusted-close responses; every month is present.
+test_benchmark_mandate (test_portfolio.PortfolioTests.test_benchmark_mandate) ... ok
+test_correlation_probe (test_portfolio.PortfolioTests.test_correlation_probe) ... ok
+test_covariance_and_diversification_boundaries (test_portfolio.PortfolioTests.test_covariance_and_diversification_boundaries) ... ok
+test_edges (test_portfolio.PortfolioTests.test_edges) ... ok
+test_every_displayed_weight (test_portfolio.PortfolioTests.test_every_displayed_weight) ... ok
+test_invalid_correlations (test_portfolio.PortfolioTests.test_invalid_correlations) ... ok
+test_known_answers (test_portfolio.PortfolioTests.test_known_answers) ... ok
+test_standalone_mutations_and_refusal (test_portfolio.PortfolioTests.test_standalone_mutations_and_refusal) ... ok
+test_standalone_printed_outputs (test_portfolio.PortfolioTests.test_standalone_printed_outputs) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.256s
+
+OK
