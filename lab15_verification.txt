@@ -1,0 +1,48 @@
+Lab 15 reproducible verification
+Run UTC: 2026-10-22T21:28:08.791115+00:00
+
+VTI: all 60 prices match saved Yahoo adjusted closes.
+Recorded download: 2026-10-22T21:26:26.065100+00:00
+Source: https://query1.finance.yahoo.com/v8/finance/chart/VTI?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits
+QQQ: all 60 prices match saved Yahoo adjusted closes.
+Recorded download: 2026-10-22T21:26:26.065100+00:00
+Source: https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits
+VOO: all 60 prices match saved Yahoo adjusted closes.
+Recorded download: 2026-10-22T21:26:26.065100+00:00
+Source: https://query1.finance.yahoo.com/v8/finance/chart/VOO?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits
+SCHD: all 60 prices match saved Yahoo adjusted closes.
+Recorded download: 2026-10-22T21:26:26.065100+00:00
+Source: https://query1.finance.yahoo.com/v8/finance/chart/SCHD?period1=1633046400&period2=1790812800&interval=1d&events=div%2Csplits
+
+All 240 prices reconcile to recorded responses; no new retrieval claimed.
+SHA256 prices.csv: 7aefc8f7877255e17e5b01b6eda4a94942908ce3cf9e2e35066a6416c7b4d270
+
+test_benchmark_mandate (test_portfolio.PortfolioTests.test_benchmark_mandate) ... ok
+test_correlation_probe (test_portfolio.PortfolioTests.test_correlation_probe) ... ok
+test_covariance_and_diversification_boundaries (test_portfolio.PortfolioTests.test_covariance_and_diversification_boundaries) ... ok
+test_edges (test_portfolio.PortfolioTests.test_edges) ... ok
+test_every_displayed_weight (test_portfolio.PortfolioTests.test_every_displayed_weight) ... ok
+test_invalid_correlations (test_portfolio.PortfolioTests.test_invalid_correlations) ... ok
+test_known_answers (test_portfolio.PortfolioTests.test_known_answers) ... ok
+test_standalone_mutations_and_refusal (test_portfolio.PortfolioTests.test_standalone_mutations_and_refusal) ... ok
+test_standalone_printed_outputs (test_portfolio.PortfolioTests.test_standalone_printed_outputs) ... ok
+test_constraints_and_boundaries (test_lab15.Lab15Tests.test_constraints_and_boundaries) ... ok
+test_current_equity_universe_is_infeasible_under_reserve_rule (test_lab15.Lab15Tests.test_current_equity_universe_is_infeasible_under_reserve_rule) ... ok
+test_estimation_hand_calculation (test_lab15.Lab15Tests.test_estimation_hand_calculation) ... ok
+test_grid_covers_three_to_six_assets (test_lab15.Lab15Tests.test_grid_covers_three_to_six_assets) ... ok
+test_independent_statistics_and_exhaustive_optimum (test_lab15.Lab15Tests.test_independent_statistics_and_exhaustive_optimum) ... ok
+test_meridian_and_probes (test_lab15.Lab15Tests.test_meridian_and_probes) ... ok
+test_project_results (test_lab15.Lab15Tests.test_project_results) ... ok
+test_reported_partner_ig_attack (test_lab15.Lab15Tests.test_reported_partner_ig_attack) ... ok
+test_csv_windows_and_invalid_upload (test_lab15_app.AppTests.test_csv_windows_and_invalid_upload) ... ok
+test_current_equity_universe_upload (test_lab15_app.AppTests.test_current_equity_universe_upload) ... ok
+test_engine_correlation_reaches_page (test_lab15_app.AppTests.test_engine_correlation_reaches_page) ... ok
+test_meridian_widgets_and_infeasible (test_lab15_app.AppTests.test_meridian_widgets_and_infeasible) ... ok
+test_reported_partner_attack_on_page (test_lab15_app.AppTests.test_reported_partner_attack_on_page) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 9.109s
+
+OK
+
+This project was made with Codex. I am not a financial advisor.

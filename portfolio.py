@@ -110,6 +110,90 @@ def baseline_weights(sleeves):
             "Inverse volatility": inverse_volatility_weights(sleeves)}
 
 
+def search_portfolio(sleeves, correlations, objective=.065, reserve_min=.03):
+    """Exhaustive 5-point grid; first lexicographic mix wins exact risk ties."""
+    if not 3 <= len(sleeves) <= 6:
+        raise ValueError("Supply three to six assets.")
+    if not isfinite(objective) or not isfinite(reserve_min) or not 0 <= reserve_min <= 1:
+        raise ValueError("Objective must be finite and reserve minimum between 0 and 1.")
+    covariance = covariance_matrix(sleeves, correlations)
+
+    def allocations(left, count):
+        if count == 1:
+            yield [left / 20]
+        else:
+            for units in range(left + 1):
+                for tail in allocations(left - units, count - 1):
+                    yield [units / 20] + tail
+
+    best = None
+    for weights in allocations(20, len(sleeves)):
+        ret = expected_return(weights, sleeves)
+        reserve = reserve_weight(weights, sleeves)
+        if not meets_objective(ret, objective) or not meets_objective(reserve, reserve_min):
+            continue
+        vol = portfolio_volatility(weights, covariance)
+        if best is None or vol < best['volatility']:
+            best = dict(weights=weights, return_estimate=ret, volatility=vol, reserve=reserve)
+    return best
+
+
+def estimate_from_csv(source, last_36=False):
+    """Monthly simple returns; sample SD/correlation; 36 returns need 37 prices.
+
+    source is a path or text stream. Missing months/prices are rejected, never filled.
+    Zero-variance assets use zero off-diagonal correlations (zero covariance).
+    """
+    import csv
+    from datetime import date
+    from pathlib import Path
+    from statistics import mean, stdev
+    from io import StringIO
+
+    if isinstance(source, (str, Path)):
+        source = StringIO(Path(source).read_text(encoding='utf-8-sig'))
+    rows = list(csv.reader(source))
+    if not rows or not 4 <= len(rows[0]) <= 7:
+        raise ValueError("CSV requires a date column and three to six asset columns.")
+    names = [name.strip() for name in rows[0][1:]]
+    if any(not name for name in names) or len(set(names)) != len(names):
+        raise ValueError("Ticker names must be nonempty and unique.")
+    prices, dates = [], []
+    for row in rows[1:]:
+        if len(row) != len(names) + 1:
+            raise ValueError("Every CSV row must contain a date and all prices.")
+        try:
+            day = date.fromisoformat(row[0])
+            values = [float(v) for v in row[1:]]
+        except ValueError:
+            raise ValueError("Use ISO dates YYYY-MM-DD and numeric prices.") from None
+        if any(not isfinite(v) or v <= 0 for v in values):
+            raise ValueError("Prices must be positive and finite.")
+        if dates and day.year * 12 + day.month != dates[-1].year * 12 + dates[-1].month + 1:
+            raise ValueError("Dates must be consecutive months, oldest first, without duplicates.")
+        dates.append(day)
+        prices.append(values)
+    if len(prices) < (37 if last_36 else 3):
+        raise ValueError("Need 37 prices for 36 returns, or at least three prices for estimation.")
+    returns = [[b[i] / a[i] - 1 for i in range(len(names))]
+               for a, b in zip(prices, prices[1:])]
+    if last_36:
+        returns = returns[-36:]
+    columns = list(zip(*returns))
+    means = [mean(col) for col in columns]
+    sds = [stdev(col) for col in columns]
+    corr = [[1.0 if i == j else
+             (max(-1.0, min(1.0, sum((x-means[i])*(y-means[j]) for x, y in zip(columns[i], columns[j]))
+              / (len(returns)-1) / sds[i] / sds[j])) if sds[i] and sds[j] else 0.0)
+             for j in range(len(names))] for i in range(len(names))]
+    sleeves = [dict(name=name, return_estimate=means[i]*12,
+                    volatility=sds[i]*sqrt(12), reserve=False) for i, name in enumerate(names)]
+    for sleeve in sleeves:
+        sleeve['return'] = sleeve.pop('return_estimate')
+    validate_inputs(sleeves, corr)
+    return sleeves, corr
+
+
 def main():
     covariance = covariance_matrix(SLEEVES, CORRELATIONS)
     print("Annual course training inputs; weights and results in percent.")
@@ -127,3 +211,6 @@ if __name__ == "__main__":
         main()
     except (ValueError, TypeError, KeyError) as exc:
         raise SystemExit(f"Input error: {exc}") from None
+
+# This project was made with Codex. I am not a financial advisor.
+# For educational purposes only; this is not investment advice.

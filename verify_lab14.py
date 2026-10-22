@@ -31,7 +31,7 @@ with redirect_stdout(output):
     except ValueError as exc:
         print(f'Correlation 1.3 rejected: {exc}')
     print(f'Delivered IG/equity correlation: {p.CORRELATIONS[2][3]}')
-    with (root / 'prices.csv').open(newline='', encoding='utf-8') as file:
+    with (root / 'lab14_data' / 'prices.csv').open(newline='', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         assert reader.fieldnames == ['Date', 'BIL', 'IEF', 'LQD', 'VT']
         rows = list(reader)

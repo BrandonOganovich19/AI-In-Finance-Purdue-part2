@@ -143,6 +143,8 @@ I would show the CIO the benchmark first. It connects directly to the client's s
 
 ## Project 2 fund universe and prices
 
+**Historical record:** The universe below was used for Lab 14. On October 22, Project 2 was changed to VTI, QQQ, VOO and SCHD. The prior CSV is now `lab14_data/prices.csv`; the current root `prices.csv` and Lab 15 report use the new universe. `download_prices.py` and `verify_lab14.py` use the archived Lab 14 path, while `download_lab15_prices.py` maintains the current CSV.
+
 The universe supports the fictional Campus Access Scholarship Reserve from Lab 13: $2 million, a ten-year horizon, $60,000 reserve requirement and CPI + 3% objective. That objective is distinct from Meridian's 6.5%. These funds are educational proxies; they have not been optimized or endorsed for a real account.
 
 | Ticker | Fund name | Role | Historical source | Download date |

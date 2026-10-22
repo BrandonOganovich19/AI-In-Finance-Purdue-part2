@@ -46,7 +46,7 @@ def main():
         if len(dates) != 1:
             raise ValueError(f'Misaligned month-end dates: {month}')
         rows.append([dates.pop()] + [series[t][month][1] for t in TICKERS])
-    with (ROOT / 'prices.csv').open('w', newline='', encoding='utf-8') as output:
+    with (raw_dir / 'prices.csv').open('w', newline='', encoding='utf-8') as output:
         writer = csv.writer(output)
         writer.writerow(['Date'] + TICKERS)
         writer.writerows(rows)
@@ -59,3 +59,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# This project was made with Codex. I am not a financial advisor.
+# For educational purposes only; this is not investment advice.

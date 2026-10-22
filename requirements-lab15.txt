@@ -1,0 +1,3 @@
+streamlit>=1.40,<2
+
+# This project was made with Codex. I am not a financial advisor.
