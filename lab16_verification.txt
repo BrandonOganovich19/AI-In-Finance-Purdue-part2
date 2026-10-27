@@ -1,0 +1,91 @@
+Lab 16 reproducible verification
+Run UTC: 2026-10-27T20:32:31.328379+00:00
+Python: 3.12.3
+
+$ python asof.py
+Lab 16 - Provenance gate | decision date 2026-03-31
+Rows in: 12
+
+ROW FUNNEL
+  1. Quarantined: no ticker                            1 row(s): 11
+  2. Removed: exact duplicate                          1 row(s): 7
+  3. Removed: published after 2026-03-31               3 row(s): 3, 8, 10
+  4. Removed: older vintage replaced by a revision     1 row(s): 2
+  As-of panel                                          6 row(s): 1, 4, 5, 6, 9, 12
+
+AS-OF PANEL
+  Row  Ticker Month    Published     Price
+    1  AAA    2026-01  2026-02-10    101.0
+    4  AAA    2026-02  2026-03-25    103.0
+    5  BBB    2026-01  2026-02-10     98.0
+    6  BBB    2026-02  2026-03-10     97.0
+    9  CCC    2026-01  2026-02-10    110.0
+   12  CCC    2026-02  2026-03-10    111.0
+
+SIGNALS (percent change, previous month -> latest month)
+  Ticker  As-of signal                Naive signal              
+  AAA     +1.98% (February, row 4)    +5.83% (March, row 3)     
+  BBB     -1.02% (February, row 6)    -5.15% (March, row 8)     
+  CCC     +0.91% (February, row 12)   +1.82% (February, row 10) 
+
+SANITY CHECK - report only, the provenance gate does not act on this
+  row  1 AAA 2026-01 price  101.0 yield -0.99%  -> negative yield
+  row  4 AAA 2026-02 price  103.0 yield -2.91%  -> negative yield
+  row  5 BBB 2026-01 price   98.0 yield +2.04%  -> nothing
+  row  6 BBB 2026-02 price   97.0 yield +3.09%  -> nothing
+  row  9 CCC 2026-01 price  110.0 yield -9.09%  -> negative yield; priced above AAA and BBB
+  row 12 CCC 2026-02 price  111.0 yield -9.91%  -> negative yield; priced above AAA and BBB
+
+$ swap and break: DECISION_DATE = 2026-04-15
+Lab 16 - Provenance gate | decision date 2026-04-15
+Rows in: 12
+
+ROW FUNNEL
+  1. Quarantined: no ticker                            1 row(s): 11
+  2. Removed: exact duplicate                          1 row(s): 7
+  3. Removed: published after 2026-04-15               0 row(s): -
+  4. Removed: older vintage replaced by a revision     2 row(s): 2, 12
+  As-of panel                                          8 row(s): 1, 3, 4, 5, 6, 8, 9, 10
+
+AS-OF PANEL
+  Row  Ticker Month    Published     Price
+    1  AAA    2026-01  2026-02-10    101.0
+    3  AAA    2026-03  2026-04-10    109.0
+    4  AAA    2026-02  2026-03-25    103.0
+    5  BBB    2026-01  2026-02-10     98.0
+    6  BBB    2026-02  2026-03-10     97.0
+    8  BBB    2026-03  2026-04-10     92.0
+    9  CCC    2026-01  2026-02-10    110.0
+   10  CCC    2026-02  2026-04-05    112.0
+
+SIGNALS (percent change, previous month -> latest month)
+  Ticker  As-of signal                Naive signal              
+  AAA     +5.83% (March, row 3)       +5.83% (March, row 3)     
+  BBB     -5.15% (March, row 8)       -5.15% (March, row 8)     
+  CCC     +1.82% (February, row 10)   +1.82% (February, row 10) 
+
+SANITY CHECK - report only, the provenance gate does not act on this
+  row  1 AAA 2026-01 price  101.0 yield -0.99%  -> negative yield
+  row  3 AAA 2026-03 price  109.0 yield -8.26%  -> negative yield
+  row  4 AAA 2026-02 price  103.0 yield -2.91%  -> negative yield
+  row  5 BBB 2026-01 price   98.0 yield +2.04%  -> nothing
+  row  6 BBB 2026-02 price   97.0 yield +3.09%  -> nothing
+  row  8 BBB 2026-03 price   92.0 yield +8.70%  -> nothing
+  row  9 CCC 2026-01 price  110.0 yield -9.09%  -> negative yield; priced above AAA and BBB
+  row 10 CCC 2026-02 price  112.0 yield -10.71%  -> negative yield; priced above AAA and BBB
+
+$ python -m unittest test_asof -v
+test_lab17_training_dates_preview (test_asof.ProvenanceGateTests.test_lab17_training_dates_preview) ... ok
+test_pasting_full_lab_table_with_header (test_asof.ProvenanceGateTests.test_pasting_full_lab_table_with_header) ... ok
+test_printed_report_names_month_and_two_decimals (test_asof.ProvenanceGateTests.test_printed_report_names_month_and_two_decimals) ... ok
+test_published_on_decision_date_is_knowable (test_asof.ProvenanceGateTests.test_published_on_decision_date_is_knowable) ... ok
+test_revision_kept_not_original (test_asof.ProvenanceGateTests.test_revision_kept_not_original) ... ok
+test_row_funnel_matches_known_answer (test_asof.ProvenanceGateTests.test_row_funnel_matches_known_answer) ... ok
+test_signals_against_hand_calculation (test_asof.ProvenanceGateTests.test_signals_against_hand_calculation) ... ok
+test_signals_match_known_answer (test_asof.ProvenanceGateTests.test_signals_match_known_answer) ... ok
+test_swap_and_break_later_date_equals_naive (test_asof.ProvenanceGateTests.test_swap_and_break_later_date_equals_naive) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
