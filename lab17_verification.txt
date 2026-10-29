@@ -1,0 +1,25 @@
+Lab 17 live verification
+Run date: 2026-10-29
+BAA: {'known_date': datetime.date(2026, 9, 1), 'known_value': 6.47, 'current_date': datetime.date(2026, 9, 1), 'current_value': 6.47, 'later_count': 0, 'revised_count': 0, 'revised_dates': []}; expected 2026-09-01 / 6.47; PASS
+FEDFUNDS: {'known_date': datetime.date(2026, 9, 1), 'known_value': 3.75, 'current_date': datetime.date(2026, 9, 1), 'current_value': 3.75, 'later_count': 0, 'revised_count': 0, 'revised_dates': []}; expected 2026-09-01 / 3.75; PASS
+DGS10: {'known_date': datetime.date(2026, 10, 2), 'known_value': 5.28, 'current_date': datetime.date(2026, 10, 28), 'current_value': 5.05, 'later_count': 17, 'revised_count': 0, 'revised_dates': []}; expected 2026-10-02 / 5.28; PASS
+MORTGAGE30US: {'known_date': datetime.date(2026, 10, 1), 'known_value': 7.28, 'current_date': datetime.date(2026, 10, 29), 'current_value': 7.24, 'later_count': 4, 'revised_count': 0, 'revised_dates': []}; expected 2026-10-01 / 7.28; PASS
+PAYEMS Dec 2024: known 159536.0, current 158316.0, revised count 381; PASS
+Portfolio DGS10 as known 2026-09-30: {'known_date': datetime.date(2026, 9, 29), 'known_value': 5.26, 'current_date': datetime.date(2026, 10, 28), 'current_value': 5.05, 'later_count': 20, 'revised_count': 0, 'revised_dates': []}
+Portfolio DGS10 as known 2026-10-29: {'known_date': datetime.date(2026, 10, 28), 'known_value': 5.05, 'current_date': datetime.date(2026, 10, 28), 'current_value': 5.05, 'later_count': 0, 'revised_count': 0, 'revised_dates': []}
+DGS10 page cross-check 2026-10-23: CSV 5.0
+DGS10 page cross-check 2026-10-26: CSV 5.0
+DGS10 page cross-check 2026-10-27: CSV 4.99
+test_actual_vintage_column_and_cutoff (test_lab17.AuditTests.test_actual_vintage_column_and_cutoff) ... ok
+test_bad_source_rejected (test_lab17.AuditTests.test_bad_source_rejected) ... ok
+test_empty_vintage_not_zero (test_lab17.AuditTests.test_empty_vintage_not_zero) ... ok
+test_id_validation (test_lab17.AuditTests.test_id_validation) ... ok
+test_missing_zero_negative_and_sort (test_lab17.AuditTests.test_missing_zero_negative_and_sort) ... ok
+test_revision_alignment_and_later_count (test_lab17.AuditTests.test_revision_alignment_and_later_count) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
+
+Live checks: 5/5; offline tests successful: True

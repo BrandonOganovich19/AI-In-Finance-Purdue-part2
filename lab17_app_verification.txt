@@ -1,0 +1,6 @@
+test_defaults_historical_probe_and_invalid_id (__main__.AppTests.test_defaults_historical_probe_and_invalid_id) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.817s
+
+OK
