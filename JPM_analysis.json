@@ -1,0 +1,268 @@
+{
+  "ticker": "JPM",
+  "company": "JPMORGAN CHASE & CO",
+  "cik": 19617,
+  "source": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
+    "retrieved_utc": "2026-11-03T21:30:52.972021+00:00",
+    "sha256": "f826ab71668a5f1a776f858c87160e8bab76468f1de928e152f7238a1b45c5a6",
+    "bytes": 8129867
+  },
+  "rows": [
+    {
+      "fiscal_year_end": "2021-12-31",
+      "revenue": {
+        "value": 121649000000,
+        "tag": "Revenues",
+        "start": "2021-01-01",
+        "end": "2021-12-31",
+        "filed": "2024-02-16",
+        "accn": "0000019617-24-000225",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 48334000000,
+        "tag": "NetIncomeLoss",
+        "start": "2021-01-01",
+        "end": "2021-12-31",
+        "filed": "2024-02-16",
+        "accn": "0000019617-24-000225",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": 78084000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2021-01-01",
+        "end": "2021-12-31",
+        "filed": "2024-02-16",
+        "accn": "0000019617-24-000225",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": null,
+        "searched_tags": [
+          "PaymentsToAcquirePropertyPlantAndEquipment",
+          "PaymentsToAcquireProductiveAssets"
+        ],
+        "end": "2021-12-31"
+      },
+      "equity": {
+        "value": 294127000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2021-12-31",
+        "filed": "2024-02-16",
+        "accn": "0000019617-24-000225",
+        "form": "10-K"
+      },
+      "roe": "0.1643303742940974477011631030",
+      "owner_earnings": null
+    },
+    {
+      "fiscal_year_end": "2022-12-31",
+      "revenue": {
+        "value": 128695000000,
+        "tag": "Revenues",
+        "start": "2022-01-01",
+        "end": "2022-12-31",
+        "filed": "2025-02-14",
+        "accn": "0000019617-25-000270",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 37676000000,
+        "tag": "NetIncomeLoss",
+        "start": "2022-01-01",
+        "end": "2022-12-31",
+        "filed": "2025-02-14",
+        "accn": "0000019617-25-000270",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": 107119000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2022-01-01",
+        "end": "2022-12-31",
+        "filed": "2025-02-14",
+        "accn": "0000019617-25-000270",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": null,
+        "searched_tags": [
+          "PaymentsToAcquirePropertyPlantAndEquipment",
+          "PaymentsToAcquireProductiveAssets"
+        ],
+        "end": "2022-12-31"
+      },
+      "equity": {
+        "value": 292332000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2022-12-31",
+        "filed": "2025-02-14",
+        "accn": "0000019617-25-000270",
+        "form": "10-K"
+      },
+      "roe": "0.1288808614862553535021824501",
+      "owner_earnings": null
+    },
+    {
+      "fiscal_year_end": "2023-12-31",
+      "revenue": {
+        "value": 158104000000,
+        "tag": "Revenues",
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 49552000000,
+        "tag": "NetIncomeLoss",
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": 12974000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": null,
+        "searched_tags": [
+          "PaymentsToAcquirePropertyPlantAndEquipment",
+          "PaymentsToAcquireProductiveAssets"
+        ],
+        "end": "2023-12-31"
+      },
+      "equity": {
+        "value": 327878000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2023-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "roe": "0.1511293834902006234026070673",
+      "owner_earnings": null
+    },
+    {
+      "fiscal_year_end": "2024-12-31",
+      "revenue": {
+        "value": 177556000000,
+        "tag": "Revenues",
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 58471000000,
+        "tag": "NetIncomeLoss",
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": -42012000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": null,
+        "searched_tags": [
+          "PaymentsToAcquirePropertyPlantAndEquipment",
+          "PaymentsToAcquireProductiveAssets"
+        ],
+        "end": "2024-12-31"
+      },
+      "equity": {
+        "value": 344758000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2024-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "roe": "0.1696001253052866068372597590",
+      "owner_earnings": null
+    },
+    {
+      "fiscal_year_end": "2025-12-31",
+      "revenue": {
+        "value": 182447000000,
+        "tag": "Revenues",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 57048000000,
+        "tag": "NetIncomeLoss",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": -147782000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": null,
+        "tag": null,
+        "searched_tags": [
+          "PaymentsToAcquirePropertyPlantAndEquipment",
+          "PaymentsToAcquireProductiveAssets"
+        ],
+        "end": "2025-12-31"
+      },
+      "equity": {
+        "value": 362438000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001628280-26-008131",
+        "form": "10-K"
+      },
+      "roe": "0.1574007140531621960169739376",
+      "owner_earnings": null
+    }
+  ],
+  "checks": {
+    "ROE at least 15.0% every year": "fail",
+    "Owner earnings positive every year": "not known",
+    "Owner earnings grew first to last": "not known"
+  }
+}

@@ -1,0 +1,6 @@
+test_cost_jpm_and_tampered_memo (__main__.AppTests.test_cost_jpm_and_tampered_memo) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.459s
+
+OK

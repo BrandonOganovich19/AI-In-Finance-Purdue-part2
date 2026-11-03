@@ -1,0 +1,121 @@
+{
+  "layout": "Individual files directly in the project root",
+  "files": [
+    {
+      "path": "lab18_gitignore.txt",
+      "sha256": "0b09a64653ca7931bf4baaa7dedd3ba601891968f6de0462adcc7f1c3301b059"
+    },
+    {
+      "path": "lab18_app.py",
+      "sha256": "f2c2a55bbd18ff86dc63b9701c1583e69ee43ba78a3ba6de02c6503ccb29fe54"
+    },
+    {
+      "path": "compare_fresh_chat.py",
+      "sha256": "bdacdd5a64bdb809d15821f855c9d3056d4c059113a8dbfe5d674a2a290923e7"
+    },
+    {
+      "path": "package_lab18_submission.py",
+      "sha256": "a93c60339792ada6cd96bd1a551fe0438193db1b97b84ca28e6bb627e2215422"
+    },
+    {
+      "path": "lab-18-legend-investor-as-skill.md",
+      "sha256": "795bc68e026bffcb03c1f818b3823f4772eac23b1862c438c81c0f1dbf4e1176"
+    },
+    {
+      "path": "requirements-lab18.txt",
+      "sha256": "fc8ffa8977a1b7236378c17f43e583395cbfaf780ce1ea5785d42a70507cd34f"
+    },
+    {
+      "path": "run_lab18.py",
+      "sha256": "11fd4ae96b540687d00243d0a85e8f5ada4c454581f434726105391a7da8dcaf"
+    },
+    {
+      "path": "test_lab18_app.py",
+      "sha256": "c54140bc7802a3054a556f11dd2611f377775d7b0652376266c008ee3c6e9ed3"
+    },
+    {
+      "path": "test_lab18.py",
+      "sha256": "70001a3fe3e2209146f1e0324366d766c6f092529da193e2744c2c79aa761ef5"
+    },
+    {
+      "path": "lab18_WALKTHROUGH.md",
+      "sha256": "c23f64d62fe9ef74e1f9143687276c7c44bc898fd829a013dd2d5b0692fa5848"
+    },
+    {
+      "path": "lab18_SKILL.md",
+      "sha256": "b0e0bd0b77dbf7f84ed6f5a11bffd07b6c2c4a4b85131a6c53f5dd7d812f5401"
+    },
+    {
+      "path": "app_tests.txt",
+      "sha256": "8b7320325083f0462344b3d6fb503f6421fad37514103352524bd94a70cd58dc"
+    },
+    {
+      "path": "calculation_tests.txt",
+      "sha256": "9b44fecbc5620642d0ae2607ecb1b1f78e1908c28754d71bed427a0be498a3e8"
+    },
+    {
+      "path": "company_tickers.json",
+      "sha256": "de59c00edabfb8b540c61ea4805446763bc9ba6aa8b42fa2955f5439556558d2"
+    },
+    {
+      "path": "company_tickers.source.json",
+      "sha256": "c0e424b37a96092324d2bf2b37e1e8256d5f6de05c4d1a5e54c035fc29743429"
+    },
+    {
+      "path": "COST_analysis.json",
+      "sha256": "c3330a193abd98dc74ce86cba5a8b436b271a25f06700bac3143592433c3628f"
+    },
+    {
+      "path": "COST_companyfacts.json",
+      "sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff"
+    },
+    {
+      "path": "COST_companyfacts.source.json",
+      "sha256": "1af676822962e5706c4ba7f046fb1d45b89e1bd164a022e05d29fbaa09260217"
+    },
+    {
+      "path": "COST_facts.md",
+      "sha256": "247efbd97e3dca2f56f20003c1e27b027b2668d5cb17be7799956cf5f94095a5"
+    },
+    {
+      "path": "fresh_chat_comparison.md",
+      "sha256": "7fd39199dd47fb245a96f49527000df89cdff58fc8f119f4a5305ff0d31e5a68"
+    },
+    {
+      "path": "fresh_chat_response.md",
+      "sha256": "e86e780261800d26e422fe436332998e3908c2ea59ba77869c079b9eb302b22c"
+    },
+    {
+      "path": "JPM_analysis.json",
+      "sha256": "eeb70c549563eb2764f99eb26462868a7cbd4315d10b8933aab8281e7378b8b4"
+    },
+    {
+      "path": "JPM_companyfacts.json",
+      "sha256": "f826ab71668a5f1a776f858c87160e8bab76468f1de928e152f7238a1b45c5a6"
+    },
+    {
+      "path": "JPM_companyfacts.source.json",
+      "sha256": "be25be511584a0555d73e190d48ac040108d5bee24655221deaf4e575db5c04b"
+    },
+    {
+      "path": "JPM_facts.md",
+      "sha256": "acc7b416db7d4ad946dc8852466a0f79bbf2b16f5f433307de8d9550c8d33246"
+    },
+    {
+      "path": "probes.json",
+      "sha256": "f2afbfd3536eeecff60e84fb1c43d42b04f7f7b09381e8726eff342b9c0b9d6c"
+    },
+    {
+      "path": "COST_memo.md",
+      "sha256": "d5081c6701e9f92b797ffad47b8d3b8c634f62aaa36225136d5e286304acea5d"
+    },
+    {
+      "path": "JPM_memo.md",
+      "sha256": "6807f17c224dc12230c299e2f6d956b6836c78bfc0fdc39dc6c36beac647b736"
+    },
+    {
+      "path": "lab18_edgar.py",
+      "sha256": "e44673aaa170ad148800de38ad2dfe4f0373e6d48fd114cdffa7cda318a39dbd"
+    }
+  ]
+}

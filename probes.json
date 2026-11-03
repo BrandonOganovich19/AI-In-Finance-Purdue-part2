@@ -1,0 +1,30 @@
+{
+  "COST": {
+    "checks": {
+      "ROE at least 15.0% every year": "pass",
+      "Owner earnings positive every year": "pass",
+      "Owner earnings grew first to last": "pass"
+    },
+    "memo_unsupported_numbers": []
+  },
+  "JPM": {
+    "checks": {
+      "ROE at least 15.0% every year": "fail",
+      "Owner earnings positive every year": "not known",
+      "Owner earnings grew first to last": "not known"
+    },
+    "memo_unsupported_numbers": []
+  },
+  "tampered_COST_memo": {
+    "added_text": "The ROE was 40.0%.",
+    "flags": [
+      {
+        "number": "40.0%",
+        "line": 15
+      }
+    ]
+  },
+  "installed_skill_matches_portable_copy": true,
+  "skill_discovery": "Observed in the active Codex skills catalog after installation.",
+  "official_skill_validator": "Skill is valid! (executed November 3, 2026)"
+}

@@ -1,0 +1,18 @@
+test_audit_sign_unit_and_substring (__main__.FinanceTests.test_audit_sign_unit_and_substring) ... ok
+test_clean_memos_and_hand_typed_probe (__main__.FinanceTests.test_clean_memos_and_hand_typed_probe) ... ok
+test_cost_every_answer_cell (__main__.FinanceTests.test_cost_every_answer_cell) ... ok
+test_equity_nonpositive_and_missing_inputs (__main__.FinanceTests.test_equity_nonpositive_and_missing_inputs) ... ok
+test_fiscal_end_not_filing_fy_or_quarter (__main__.FinanceTests.test_fiscal_end_not_filing_fy_or_quarter) ... ok
+test_invalid_and_empty_data (__main__.FinanceTests.test_invalid_and_empty_data) ... ok
+test_jpm_missing_capex_does_not_become_zero (__main__.FinanceTests.test_jpm_missing_capex_does_not_become_zero) ... ok
+test_latest_filing_and_annual_flow_only (__main__.FinanceTests.test_latest_filing_and_annual_flow_only) ... ok
+test_leap_year_and_53_week_periods (__main__.FinanceTests.test_leap_year_and_53_week_periods) ... ok
+test_owner_earnings_zero_negative_and_growth (__main__.FinanceTests.test_owner_earnings_zero_negative_and_growth) ... ok
+test_roe_threshold_uses_unrounded_value (__main__.FinanceTests.test_roe_threshold_uses_unrounded_value) ... ok
+test_row_formula_and_instant_selection (__main__.FinanceTests.test_row_formula_and_instant_selection) ... ok
+test_tag_priority_and_fallback (__main__.FinanceTests.test_tag_priority_and_fallback) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.269s
+
+OK
