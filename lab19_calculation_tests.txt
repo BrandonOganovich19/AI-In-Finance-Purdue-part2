@@ -1,0 +1,15 @@
+test_growth_equality_and_cash_equality (__main__.PanelTests.test_growth_equality_and_cash_equality) ... ok
+test_hash_and_company_identity (__main__.PanelTests.test_hash_and_company_identity) ... ok
+test_honest_jpm_gaps (__main__.PanelTests.test_honest_jpm_gaps) ... ok
+test_inclusive_ratio_boundaries_unrounded (__main__.PanelTests.test_inclusive_ratio_boundaries_unrounded) ... ok
+test_known_cost_all_years_and_all_checks (__main__.PanelTests.test_known_cost_all_years_and_all_checks) ... ok
+test_memo_flags_every_investor (__main__.PanelTests.test_memo_flags_every_investor) ... ok
+test_new_tags_require_annual_filing_and_latest_instant (__main__.PanelTests.test_new_tags_require_annual_filing_and_latest_instant) ... ok
+test_nvda_divergence_from_real_facts (__main__.PanelTests.test_nvda_divergence_from_real_facts) ... ok
+test_probe_uses_skill_config_and_restores_it (__main__.PanelTests.test_probe_uses_skill_config_and_restores_it) ... ok
+test_zero_negative_missing_and_incomplete (__main__.PanelTests.test_zero_negative_missing_and_incomplete) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.849s
+
+OK

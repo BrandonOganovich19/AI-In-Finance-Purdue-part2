@@ -1,0 +1,62 @@
+{
+  "COST": {
+    "all_three_memos_present": true,
+    "unprinted_numbers": [],
+    "checks": {
+      "Buffett": {
+        "ROE at least 15.0% every year": "pass",
+        "Owner earnings positive every year": "pass",
+        "Owner earnings grew first to last": "pass"
+      },
+      "Graham": {
+        "Current ratio at least 2.00, latest year": "fail",
+        "Net income positive every year": "pass",
+        "Net income grew first to last": "pass"
+      },
+      "Burry": {
+        "Operating cash flow at least net income every year": "pass",
+        "Liabilities no more than 2.00 times equity, latest year": "pass"
+      }
+    }
+  },
+  "NVDA": {
+    "all_three_memos_present": true,
+    "unprinted_numbers": [],
+    "checks": {
+      "Buffett": {
+        "ROE at least 15.0% every year": "pass",
+        "Owner earnings positive every year": "pass",
+        "Owner earnings grew first to last": "pass"
+      },
+      "Graham": {
+        "Current ratio at least 2.00, latest year": "pass",
+        "Net income positive every year": "pass",
+        "Net income grew first to last": "pass"
+      },
+      "Burry": {
+        "Operating cash flow at least net income every year": "fail",
+        "Liabilities no more than 2.00 times equity, latest year": "pass"
+      }
+    }
+  },
+  "JPM": {
+    "all_three_memos_present": true,
+    "unprinted_numbers": [],
+    "checks": {
+      "Buffett": {
+        "ROE at least 15.0% every year": "fail",
+        "Owner earnings positive every year": "not known",
+        "Owner earnings grew first to last": "not known"
+      },
+      "Graham": {
+        "Current ratio at least 2.00, latest year": "not known",
+        "Net income positive every year": "pass",
+        "Net income grew first to last": "pass"
+      },
+      "Burry": {
+        "Operating cash flow at least net income every year": "fail",
+        "Liabilities no more than 2.00 times equity, latest year": "fail"
+      }
+    }
+  }
+}

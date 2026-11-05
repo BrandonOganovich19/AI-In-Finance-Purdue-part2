@@ -1,0 +1,430 @@
+{
+  "ticker": "COST",
+  "company": "COSTCO WHOLESALE CORP /NEW",
+  "cik": 909832,
+  "source": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json",
+    "retrieved_utc": "2026-11-03T21:30:37.164724+00:00",
+    "sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff",
+    "bytes": 3694553
+  },
+  "rows": [
+    {
+      "fiscal_year_end": "2022-08-28",
+      "revenue": {
+        "value": 226954000000,
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2021-08-30",
+        "end": "2022-08-28",
+        "filed": "2024-10-09",
+        "accn": "0000909832-24-000049",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 5844000000,
+        "tag": "NetIncomeLoss",
+        "start": "2021-08-30",
+        "end": "2022-08-28",
+        "filed": "2024-10-09",
+        "accn": "0000909832-24-000049",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": 7392000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2021-08-30",
+        "end": "2022-08-28",
+        "filed": "2024-10-09",
+        "accn": "0000909832-24-000049",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": 3891000000,
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "start": "2021-08-30",
+        "end": "2022-08-28",
+        "filed": "2024-10-09",
+        "accn": "0000909832-24-000049",
+        "form": "10-K"
+      },
+      "equity": {
+        "value": 20642000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2022-08-28",
+        "filed": "2023-10-11",
+        "accn": "0000909832-23-000042",
+        "form": "10-K"
+      },
+      "roe": "0.2831121015405483964732099603",
+      "owner_earnings": 3501000000,
+      "liabilities": {
+        "value": 43519000000,
+        "tag": "Liabilities",
+        "start": null,
+        "end": "2022-08-28",
+        "filed": "2023-10-11",
+        "accn": "0000909832-23-000042",
+        "form": "10-K"
+      },
+      "current_assets": {
+        "value": 32696000000,
+        "tag": "AssetsCurrent",
+        "start": null,
+        "end": "2022-08-28",
+        "filed": "2023-10-11",
+        "accn": "0000909832-23-000042",
+        "form": "10-K"
+      },
+      "current_liabilities": {
+        "value": 31998000000,
+        "tag": "LiabilitiesCurrent",
+        "start": null,
+        "end": "2022-08-28",
+        "filed": "2023-10-11",
+        "accn": "0000909832-23-000042",
+        "form": "10-K"
+      },
+      "current_ratio": "1.021813863366460403775235952",
+      "liabilities_equity": "2.108274392016277492491037690"
+    },
+    {
+      "fiscal_year_end": "2023-09-03",
+      "revenue": {
+        "value": 242290000000,
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2022-08-29",
+        "end": "2023-09-03",
+        "filed": "2025-10-08",
+        "accn": "0000909832-25-000101",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 6292000000,
+        "tag": "NetIncomeLoss",
+        "start": "2022-08-29",
+        "end": "2023-09-03",
+        "filed": "2025-10-08",
+        "accn": "0000909832-25-000101",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": 11068000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2022-08-29",
+        "end": "2023-09-03",
+        "filed": "2025-10-08",
+        "accn": "0000909832-25-000101",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": 4323000000,
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "start": "2022-08-29",
+        "end": "2023-09-03",
+        "filed": "2025-10-08",
+        "accn": "0000909832-25-000101",
+        "form": "10-K"
+      },
+      "equity": {
+        "value": 25058000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2023-09-03",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "roe": "0.2510974539069359086918349429",
+      "owner_earnings": 6745000000,
+      "liabilities": {
+        "value": 43936000000,
+        "tag": "Liabilities",
+        "start": null,
+        "end": "2023-09-03",
+        "filed": "2024-10-09",
+        "accn": "0000909832-24-000049",
+        "form": "10-K"
+      },
+      "current_assets": {
+        "value": 35879000000,
+        "tag": "AssetsCurrent",
+        "start": null,
+        "end": "2023-09-03",
+        "filed": "2024-10-09",
+        "accn": "0000909832-24-000049",
+        "form": "10-K"
+      },
+      "current_liabilities": {
+        "value": 33583000000,
+        "tag": "LiabilitiesCurrent",
+        "start": null,
+        "end": "2023-09-03",
+        "filed": "2024-10-09",
+        "accn": "0000909832-24-000049",
+        "form": "10-K"
+      },
+      "current_ratio": "1.068367924247387070839412798",
+      "liabilities_equity": "1.753372176550403064889456461"
+    },
+    {
+      "fiscal_year_end": "2024-09-01",
+      "revenue": {
+        "value": 254453000000,
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2023-09-04",
+        "end": "2024-09-01",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 7367000000,
+        "tag": "NetIncomeLoss",
+        "start": "2023-09-04",
+        "end": "2024-09-01",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": 11339000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2023-09-04",
+        "end": "2024-09-01",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": 4710000000,
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "start": "2023-09-04",
+        "end": "2024-09-01",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "equity": {
+        "value": 23622000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2024-09-01",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "roe": "0.3118702904072474811616289899",
+      "owner_earnings": 6629000000,
+      "liabilities": {
+        "value": 46209000000,
+        "tag": "Liabilities",
+        "start": null,
+        "end": "2024-09-01",
+        "filed": "2025-10-08",
+        "accn": "0000909832-25-000101",
+        "form": "10-K"
+      },
+      "current_assets": {
+        "value": 34246000000,
+        "tag": "AssetsCurrent",
+        "start": null,
+        "end": "2024-09-01",
+        "filed": "2025-10-08",
+        "accn": "0000909832-25-000101",
+        "form": "10-K"
+      },
+      "current_liabilities": {
+        "value": 35464000000,
+        "tag": "LiabilitiesCurrent",
+        "start": null,
+        "end": "2024-09-01",
+        "filed": "2025-10-08",
+        "accn": "0000909832-25-000101",
+        "form": "10-K"
+      },
+      "current_ratio": "0.9656553124295059778930746673",
+      "liabilities_equity": "1.956184912369824739649479299"
+    },
+    {
+      "fiscal_year_end": "2025-08-31",
+      "revenue": {
+        "value": 275235000000,
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2024-09-02",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 8099000000,
+        "tag": "NetIncomeLoss",
+        "start": "2024-09-02",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": 13335000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2024-09-02",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": 5498000000,
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "start": "2024-09-02",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "equity": {
+        "value": 29164000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "roe": "0.2777053902071046495679604992",
+      "owner_earnings": 7837000000,
+      "liabilities": {
+        "value": 47935000000,
+        "tag": "Liabilities",
+        "start": null,
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "current_assets": {
+        "value": 38380000000,
+        "tag": "AssetsCurrent",
+        "start": null,
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "current_liabilities": {
+        "value": 37108000000,
+        "tag": "LiabilitiesCurrent",
+        "start": null,
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "current_ratio": "1.034278322733642341274118788",
+      "liabilities_equity": "1.643635989576189823069537786"
+    },
+    {
+      "fiscal_year_end": "2026-08-30",
+      "revenue": {
+        "value": 303154000000,
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "net_income": {
+        "value": 9226000000,
+        "tag": "NetIncomeLoss",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "operating_cash_flow": {
+        "value": 15817000000,
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "capital_spending": {
+        "value": 6435000000,
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "equity": {
+        "value": 35803000000,
+        "tag": "StockholdersEquity",
+        "start": null,
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "roe": "0.2576879032483311454347401056",
+      "owner_earnings": 9382000000,
+      "liabilities": {
+        "value": 53242000000,
+        "tag": "Liabilities",
+        "start": null,
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "current_assets": {
+        "value": 46582000000,
+        "tag": "AssetsCurrent",
+        "start": null,
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "current_liabilities": {
+        "value": 43952000000,
+        "tag": "LiabilitiesCurrent",
+        "start": null,
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "accn": "0000909832-26-000093",
+        "form": "10-K"
+      },
+      "current_ratio": "1.059838005096468875136512559",
+      "liabilities_equity": "1.487082088093176549451163310"
+    }
+  ],
+  "checks": {
+    "ROE at least 15.0% every year": "pass",
+    "Owner earnings positive every year": "pass",
+    "Owner earnings grew first to last": "pass"
+  },
+  "threshold": "2.00",
+  "panel": {
+    "Buffett": {
+      "ROE at least 15.0% every year": "pass",
+      "Owner earnings positive every year": "pass",
+      "Owner earnings grew first to last": "pass"
+    },
+    "Graham": {
+      "Current ratio at least 2.00, latest year": "fail",
+      "Net income positive every year": "pass",
+      "Net income grew first to last": "pass"
+    },
+    "Burry": {
+      "Operating cash flow at least net income every year": "pass",
+      "Liabilities no more than 2.00 times equity, latest year": "pass"
+    }
+  }
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "file": "lab19_app.py",
+    "bytes": 6376,
+    "sha256": "6dcd2cc6d01c71809bf7ff087c6af23ef1f18462e2c5b5a50d15f9f9fbd9a414"
+  },
+  {
+    "file": "lab19_app_tests.txt",
+    "bytes": 228,
+    "sha256": "2dc87812fc631220e243b70ff50618548d683da7a61008bb5f6b6ffdf32810ad"
+  },
+  {
+    "file": "lab19_buffett_SKILL.md",
+    "bytes": 1736,
+    "sha256": "ff1272322cabd42dc934d2149bfc7021070eb03ae55ce32d0beb5b30abf20e10"
+  },
+  {
+    "file": "lab19_burry_SKILL.md",
+    "bytes": 2025,
+    "sha256": "ccaca90c11a5b1cc9620d01050f1c359b37674ec89ccadceee67ba456c07c631"
+  },
+  {
+    "file": "lab19_calculation_tests.txt",
+    "bytes": 1172,
+    "sha256": "be85868202ece1436023da36865b3f073dff951393e78533785a1f013fa05f1d"
+  },
+  {
+    "file": "lab19_company_tickers.json",
+    "bytes": 796507,
+    "sha256": "76b4b2abb9f7dd0e9cff38e2f20336952bb41806057b2dd1033e244f3e1faec2"
+  },
+  {
+    "file": "lab19_company_tickers.source.json",
+    "bytes": 220,
+    "sha256": "228b96904551506e8654766ace5cd5a7d0fd3f6c3fa07b1b1a2cd8d537f3357a"
+  },
+  {
+    "file": "lab19_COST_buffett_memo.md",
+    "bytes": 1145,
+    "sha256": "d939e720dd710b0f729d57795553aefa5c909010bb7370bd0d7d9921269fb40a"
+  },
+  {
+    "file": "lab19_COST_burry_memo.md",
+    "bytes": 1116,
+    "sha256": "df8926731869b999673c7bb1285843bf32a27c7df0bd1f2f91059cb8bad49b83"
+  },
+  {
+    "file": "lab19_COST_companyfacts.json",
+    "bytes": 3694553,
+    "sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff"
+  },
+  {
+    "file": "lab19_COST_companyfacts.source.json",
+    "bytes": 236,
+    "sha256": "1af676822962e5706c4ba7f046fb1d45b89e1bd164a022e05d29fbaa09260217"
+  },
+  {
+    "file": "lab19_COST_graham_memo.md",
+    "bytes": 1153,
+    "sha256": "789a1e6ff6461c3af4065af31f07531b94300380c673fe57581c4dd4596a6f0e"
+  },
+  {
+    "file": "lab19_COST_panel.json",
+    "bytes": 13094,
+    "sha256": "1c7f8372c7912e6f1d0cd25ccef3fbd74f5cd6d880c5abbc4cb589f1e0411e90"
+  },
+  {
+    "file": "lab19_COST_panel.md",
+    "bytes": 8024,
+    "sha256": "c593963da362138e552a25b7035a72907fbc472bcc5a369f108f48cb51027816"
+  },
+  {
+    "file": "lab19_edgar.py",
+    "bytes": 11116,
+    "sha256": "300702b2f461d5dc38bf5ef20f378a6b6ef255d656a48a9d010d0c0f0f92c492"
+  },
+  {
+    "file": "lab19_graham_rules.json",
+    "bytes": 34,
+    "sha256": "ada1bc4c59160e90006b2542929c980fba88add066d52ec4e4fe296be6223f1c"
+  },
+  {
+    "file": "lab19_graham_SKILL.md",
+    "bytes": 2412,
+    "sha256": "74c43ce5b15423cc1e05bd1b5602d719dc1d7c822caedffc9f88089ef96f42ea"
+  },
+  {
+    "file": "lab19_JPM_buffett_memo.md",
+    "bytes": 549,
+    "sha256": "5d08aedb4b013b6a0957c9728ebc34bbf80a86cbea2924a070eb1b449efff79a"
+  },
+  {
+    "file": "lab19_JPM_burry_memo.md",
+    "bytes": 612,
+    "sha256": "00a7e9a9c4b99b3c33cd594041c041af649684c6a8a58ccfb5a076faf3563250"
+  },
+  {
+    "file": "lab19_JPM_companyfacts.json",
+    "bytes": 8129867,
+    "sha256": "f826ab71668a5f1a776f858c87160e8bab76468f1de928e152f7238a1b45c5a6"
+  },
+  {
+    "file": "lab19_JPM_companyfacts.source.json",
+    "bytes": 236,
+    "sha256": "be25be511584a0555d73e190d48ac040108d5bee24655221deaf4e575db5c04b"
+  },
+  {
+    "file": "lab19_JPM_graham_memo.md",
+    "bytes": 543,
+    "sha256": "b13fa8d29e4a914b9dc897e21115207da0b6dd84bcd896a0999a562d663ce21a"
+  },
+  {
+    "file": "lab19_JPM_panel.json",
+    "bytes": 11864,
+    "sha256": "af0f8982826f62d27f5359e69a15fa39bc497d58f6b516b2842b6898b419142d"
+  },
+  {
+    "file": "lab19_JPM_panel.md",
+    "bytes": 7951,
+    "sha256": "80062d37a2b23a5788ae1060ea204db449ccba01e1bcf4a45c96503e615671b5"
+  },
+  {
+    "file": "lab19_memo_audit.json",
+    "bytes": 2003,
+    "sha256": "4b27987ff39506b48ebacea8834275839a362d5e5a7b0e3b8d35ec3299326ce0"
+  },
+  {
+    "file": "lab19_NVDA_buffett_memo.md",
+    "bytes": 1053,
+    "sha256": "7f041e8a504e25628de68da60697e6cf86a435c3688d2a9067ec23302ddef474"
+  },
+  {
+    "file": "lab19_NVDA_burry_memo.md",
+    "bytes": 1083,
+    "sha256": "d71a518cac3024f772f56af78ef996f0cfae38ac6d3b15b370e2e3d5f07b7708"
+  },
+  {
+    "file": "lab19_NVDA_companyfacts.json",
+    "bytes": 4092966,
+    "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff"
+  },
+  {
+    "file": "lab19_NVDA_companyfacts.source.json",
+    "bytes": 236,
+    "sha256": "6b65c7cb8c221b9e06b60a1edba82a7307e5f6d12d925c2c38fa3730c92a5995"
+  },
+  {
+    "file": "lab19_NVDA_graham_memo.md",
+    "bytes": 1143,
+    "sha256": "97adbb0e4d779b1239908173de0df890925ad19407bbd6fec5aae10c140eb918"
+  },
+  {
+    "file": "lab19_NVDA_panel.json",
+    "bytes": 12870,
+    "sha256": "c26dc1d1ba43a29964aa5f1f386e179c544d3e70e0196698b9d8857103dc6b38"
+  },
+  {
+    "file": "lab19_NVDA_panel.md",
+    "bytes": 7749,
+    "sha256": "9e07a36dcfec75a2f5f04245c215dd300760d6db61f170e6559bb004399fa106"
+  },
+  {
+    "file": "lab19_panel.py",
+    "bytes": 8929,
+    "sha256": "415cf4c2bb2ea0d4e2b904c267efba146b0c604b1d644899d3890ac71df41745"
+  },
+  {
+    "file": "lab19_RUN_ME.md",
+    "bytes": 3970,
+    "sha256": "2c78a2f39410988de3faa9862ba063aac3f3852f2323536b1aa324d9a5ea9a1f"
+  },
+  {
+    "file": "lab19_skill_validation.txt",
+    "bytes": 115,
+    "sha256": "1f91af5ea2e9d2fa8b154880a282b0a7d5f7d0f9d8dcf43b9c5a887e63244da8"
+  },
+  {
+    "file": "lab19_SUBMISSION.md",
+    "bytes": 12729,
+    "sha256": "edab1a13bcf91a4a461512b47b47826d88f1435c8c7c3fd6502f6c5e9d259b98"
+  },
+  {
+    "file": "lab19_threshold_probe.md",
+    "bytes": 467,
+    "sha256": "4aadf90f00ab500c62495080bc897cfd53c2a3f75768c285287560ada357ae1e"
+  },
+  {
+    "file": "lab19_verification.txt",
+    "bytes": 1663,
+    "sha256": "4528756cd4a0ac1713c220437a55e96fbd69fd1a2303b7a8aea3fa61392c0f1a"
+  },
+  {
+    "file": "lab19_WALKTHROUGH.md",
+    "bytes": 4421,
+    "sha256": "feef4fc8b6bfcdc031b0c2bf92823ef6d16a59d5514e6b44a416c40e25e71070"
+  },
+  {
+    "file": "requirements-lab19.txt",
+    "bytes": 36,
+    "sha256": "dd839f9b3baeaee793a677ab2810a2564a3f0ceabb4b5766b7d6580b46055f04"
+  },
+  {
+    "file": "run_lab19.py",
+    "bytes": 536,
+    "sha256": "ef5846d46c296165bc222fc642675566df0edd7d3c1c0cfb07bad4a580f9291a"
+  },
+  {
+    "file": "test_lab19.py",
+    "bytes": 7295,
+    "sha256": "f96b5e5a59a76843789ed3985a614f84eb5966f438d1219d19d661db46b41e7e"
+  },
+  {
+    "file": "test_lab19_app.py",
+    "bytes": 2666,
+    "sha256": "9e48355aa0f0851d3e0c3ee75325c5dafe1abc412ad34a0127940b54ab2f2215"
+  },
+  {
+    "file": "verify_lab19.py",
+    "bytes": 1860,
+    "sha256": "fd94ec2abd07f287316e49fc5efe59bfac359f2035a8a74ce7f7dce8caeabeb7"
+  }
+]

@@ -1,0 +1,3 @@
+('buffett', (True, 'Skill is valid!'))
+('graham', (True, 'Skill is valid!'))
+('burry', (True, 'Skill is valid!'))

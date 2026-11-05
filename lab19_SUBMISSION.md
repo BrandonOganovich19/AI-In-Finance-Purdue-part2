@@ -2,6 +2,8 @@
 
 Brandon Oganovich · FIN43900 · November 5, 2026
 
+**Disclaimer:** I am not a financial advisor. This project was made with Codex for educational purposes only and is not investment advice. Historical results and screening outcomes do not guarantee future performance.
+
 **Decision (draft for my review):** I would use the panel only as a preliminary research screen, conditional on checking source completeness, keeping thresholds fixed in advance, and reconciling NVIDIA's cash-flow shortfall before admitting it to a favorable screen; valuation and fund-level concentration still require separate analysis.
 
 **AI-use disclosure:** Codex assisted with the code, calculations, simulated investor memos, verification, and these written responses. The partner exchange, the independent no-AI explanation, personal adoption of the decision, and GitHub/Brightspace submission are not claimed as completed. This is an educational analysis, not investment advice.

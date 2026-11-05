@@ -13,7 +13,7 @@ import streamlit as st
 
 st.set_page_config(page_title='Legend Investor Panel', page_icon='📊', layout='wide')
 st.title('Legend Investor Panel')
-st.caption('Built with AI help for FIN43900. Educational analysis, not investment advice.')
+st.caption('Made with Codex for FIN43900. I am not a financial advisor. For educational purposes only; this is not investment advice.')
 st.write('Shared SEC annual facts. Different financial priorities. One auditable comparison.')
 
 @st.cache_data(ttl=3600, show_spinner=False)

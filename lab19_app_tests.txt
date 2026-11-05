@@ -1,0 +1,6 @@
+test_panel_probe_company_gaps_and_all_memo_flags (__main__.AppTests.test_panel_probe_company_gaps_and_all_memo_flags) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 2.259s
+
+OK
